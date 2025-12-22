@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[45,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "gzmetro"
+version = "${version}"
+displayName = "Guangzhou Metro"
+authors = "MFJip"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.gzmetro]]
+modId = "forge"
+mandatory = true
+versionRange = "[45,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.gzmetro]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.4,)"
+ordering = "NONE"
+side = "BOTH"
+
