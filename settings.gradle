@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'gzmetro'
+rootProject.name = 'Guangzhou-Metro'
 
 include 'common'
 include 'fabric'
