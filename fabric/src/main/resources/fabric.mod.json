@@ -1,33 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "gzmetro",
+  "id": "gzmtr",
   "version": "${version}",
-  "name": "Guangzhou Metro",
-  "description": "",
+  "name": "Guangzhou-Metro",
+  "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "MFJip"
+    "Me!"
   ],
   "contact": {
-    "homepage": "https://waterspo.top"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "All-Rights-Reserved",
-  "icon": "assets/gzmetro/icon.png",
+  "license": "CC0-1.0",
+  "icon": "assets/gzmtr/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "top.waterspo.gzmetro.fabric.GzmetroFabric"
+      "top.waterspo.fabric.GzmetroFabric"
     ],
     "client": [
-      "top.waterspo.gzmetro.fabric.client.GzmetroFabricClient"
+      "top.waterspo.fabric.client.GzmetroFabricClient"
     ]
   },
   "mixins": [
-    "gzmetro.mixins.json"
+    "gzmtr.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.18.3",
     "minecraft": "~1.19.4",
     "java": ">=17",
+    "architectury": ">=8.2.91",
     "fabric-api": "*"
   },
   "suggests": {

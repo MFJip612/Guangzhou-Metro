@@ -1,4 +1,4 @@
-package top.waterspo.gzmetro.fabric.client;
+package top.waterspo.fabric.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

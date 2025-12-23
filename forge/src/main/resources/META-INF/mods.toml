@@ -1,29 +1,35 @@
 modLoader = "javafml"
 loaderVersion = "[45,)"
 #issueTrackerURL = ""
-license = "All Rights Reserved"
+license = "Insert License Here"
 
 [[mods]]
-modId = "gzmetro"
+modId = "gzmtr"
 version = "${version}"
-displayName = "Guangzhou Metro"
+displayName = "Guangzhou-Metro"
 authors = "MFJip"
 description = '''
-
+This is an example description! Tell everyone what your mod is about!
 '''
 #logoFile = ""
 
-[[dependencies.gzmetro]]
+[[dependencies.gzmtr]]
 modId = "forge"
 mandatory = true
 versionRange = "[45,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.gzmetro]]
+[[dependencies.gzmtr]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.4,)"
 ordering = "NONE"
 side = "BOTH"
 
+[[dependencies.gzmtr]]
+modId = "architectury"
+mandatory = true
+versionRange = "[8.2.91,)"
+ordering = "AFTER"
+side = "BOTH"

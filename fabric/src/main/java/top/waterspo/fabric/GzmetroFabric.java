@@ -1,7 +1,8 @@
-package top.waterspo.gzmetro.fabric;
+package top.waterspo.fabric;
 
-import top.waterspo.gzmetro.Gzmetro;
 import net.fabricmc.api.ModInitializer;
+
+import top.waterspo.Gzmetro;
 
 public final class GzmetroFabric implements ModInitializer {
     @Override
