@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "guangzhou_metro_add-ons",
+  "version": "${version}",
+  "name": "Guangzhou Metro Add-ons",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/guangzhou_metro_add-ons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.waterspo.gzmtraddons.fabric.ExampleModFabric"
+    ],
+    "client": [
+      "top.waterspo.gzmtraddons.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "guangzhou_metro_add-ons.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*",
+    "mtr": ">=4.0.5"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

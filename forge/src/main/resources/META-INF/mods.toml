@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "guangzhou_metro_add-ons"
+version = "${version}"
+displayName = "Guangzhou Metro Add-ons"
+authors = "Me!"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[dependencies.guangzhou_metro_add-ons]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.guangzhou_metro_add-ons]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.guangzhou_metro_add-ons]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.guangzhou_metro_add-ons]]
+modId = "mtr"
+mandatory = true
+versionRange = "[4.0.5,)"
+ordering = "AFTER"
+side = "BOTH"

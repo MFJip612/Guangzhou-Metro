@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "up": "gzmtr:block/station_block_up_bottom",
+    "down": "gzmtr:block/station_block_up_bottom",
+    "north": "gzmtr:block/station_block_side",
+    "south": "gzmtr:block/station_block_side",
+    "west": "gzmtr:block/station_block_side",
+    "east": "gzmtr:block/station_block_side"
+  }
+}
