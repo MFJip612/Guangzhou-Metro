@@ -8,7 +8,7 @@ import top.waterspo.gzmtraddons.item.ModCreativeTab;
 import top.waterspo.gzmtraddons.item.ModItems;
 
 public final class GzMtr {
-    public static final String MOD_ID = "guangzhou_metro_add-ons";
+    public static final String MOD_ID = "gzmtr";
 
     private GzMtr() {
     }
@@ -16,8 +16,11 @@ public final class GzMtr {
     public static final Supplier<RegistrarManager> REGISTRIES = Suppliers.memoize(() -> RegistrarManager.get(MOD_ID));
 
     public static void init() {
+        // TODO: 在此编写公共初始化逻辑。
+        System.out.println("Loading Gzmetro mod...");
         ModCreativeTab.register();
-        ModItems.register();
         ModBlocks.register();
+        ModItems.register();
+        System.out.println("Gzmetro mod initialized.");
     }
 }

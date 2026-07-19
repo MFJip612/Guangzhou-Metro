@@ -6,4 +6,5 @@ public class StationBlock extends Block {
     public StationBlock(Properties properties) {
         super(properties);
     }
+
 }
