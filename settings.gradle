@@ -1,5 +1,12 @@
 pluginManagement {
     repositories {
+        maven {
+            credentials {
+                username '64661b39593d2161bc9c6f38'
+                password 'NxpG9)[J_6r-'
+            }
+            url 'https://packages.aliyun.com/64661b44d0cfebb1b64552f3/maven/mc-dev'
+        }
         maven { url = 'https://maven.fabricmc.net/' }
         maven { url = 'https://maven.architectury.dev/' }
         maven { url = 'https://files.minecraftforge.net/maven/' }

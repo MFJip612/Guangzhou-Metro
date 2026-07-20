@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "gzmtr:block/station_block" }
+    "": {
+      "model": "gzmtr:block/station_block"
+    }
   }
 }

@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "top.waterspo.gzmtraddons.fabric.ExampleModFabric"
+      "top.waterspo.gzmtraddons.fabric.GzMtrModFabric"
     ],
     "client": [
-      "top.waterspo.gzmtraddons.fabric.client.ExampleModFabricClient"
+      "top.waterspo.gzmtraddons.fabric.client.GzMtrFabricClient"
     ]
   },
   "mixins": [

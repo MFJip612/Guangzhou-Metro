@@ -1,20 +1,18 @@
 package top.waterspo.gzmtraddons.forge;
 
 import dev.architectury.platform.forge.EventBuses;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import top.waterspo.gzmtraddons.GzMtr;
 
 @Mod(GzMtr.MOD_ID)
-public final class GzMtrForge {
-    public GzMtrForge() {
+public final class ExampleModForge {
+    public ExampleModForge() {
+        // Submit our event bus to let Architectury API register our content on the right time.
         EventBuses.registerModEventBus(GzMtr.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
 
+        // Run our common setup.
         GzMtr.init();
-
-        DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> GzMtr::clientInit);
     }
 }
